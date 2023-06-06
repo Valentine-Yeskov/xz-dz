@@ -4,7 +4,7 @@ public abstract class Dog extends Animal{
     public int weight;
 
     public void saySomething() {
-        System.out.println("Wuf wuf");
+        System.out.println("Wuf, wuf");
     }
 }
 

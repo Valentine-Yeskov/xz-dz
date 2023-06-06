@@ -28,6 +28,6 @@ final public class Puppy3 extends Dog implements Volume {
 
     @Override
     public void volumeDown() {
-        System.out.println("Volume Down");
+        System.out.println("Volume  Down");
     }
 }

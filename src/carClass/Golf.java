@@ -17,7 +17,7 @@ final public class Golf extends Volkswagen implements Move {
 
     @Override
     public void down() {
-        System.out.println("Move  Down");
+        System.out.println("Move Down");
     }
 
     @Override

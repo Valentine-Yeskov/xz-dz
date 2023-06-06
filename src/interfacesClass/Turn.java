@@ -1,6 +1,6 @@
 package interfacesClass;
 
 public interface Turn {
-    void left();
+    void left( );
     void right();
 }
