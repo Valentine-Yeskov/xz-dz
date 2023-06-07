@@ -11,4 +11,5 @@ final public class Touareg extends  Volkswagen{
     public void sayImMan(){
         System.out.println("I am the car of the son of my mother's friend");
     }
+    public String getEngine() {return engine;}
 }
