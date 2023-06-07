@@ -14,4 +14,6 @@ public abstract class Vag {
     public String getModel() {
         return model;
     }
+
+    public String getBrand() {return brand; }
 }

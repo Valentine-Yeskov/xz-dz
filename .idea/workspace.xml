@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63041683-e8e3-4c6c-8426-b679bb202047" name="Changes" comment="two classes add">
-      <change beforePath="$PROJECT_DIR$/src/carClass/Vag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carClass/Vag.java" afterDir="false" />
-    </list>
+    <list default="true" id="63041683-e8e3-4c6c-8426-b679bb202047" name="Changes" comment="two classes add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
