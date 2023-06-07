@@ -23,4 +23,8 @@ final public class Puppy2 extends Dog implements Other {
     public void exit() {
         System.out.println("Action  Exit");
     }
+    @Override
+    public void enter() {
+        System.out.println("Action  Exit");
+    }
 }
