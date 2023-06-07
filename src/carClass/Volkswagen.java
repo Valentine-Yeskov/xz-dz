@@ -9,4 +9,6 @@ public abstract class Volkswagen extends Vag{
         System.out.println("Sold out. I waiting for new cars!");
     }
 
+    public String getCollar() { return collar; }
+
 }
