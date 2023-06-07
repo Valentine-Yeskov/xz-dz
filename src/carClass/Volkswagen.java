@@ -11,4 +11,6 @@ public abstract class Volkswagen extends Vag{
 
     public String getCollar() { return collar; }
 
+    public int getPrice() { return price; }
+
 }
