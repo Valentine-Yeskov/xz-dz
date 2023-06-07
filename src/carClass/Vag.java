@@ -13,4 +13,5 @@ public abstract class Vag {
 
     public String getBrand() { return brand; }
     public String getModel() { return model;}
+    public int getDefective() { return defective;}
 }
