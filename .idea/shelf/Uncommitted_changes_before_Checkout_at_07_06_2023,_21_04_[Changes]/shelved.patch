@@ -1,0 +1,35 @@
+Index: src/carClass/Volkswagen.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package carClass;\n\npublic abstract class Volkswagen extends Vag{\n\n    public String collar;\n    public int price;\n\n    public void sayIamSold() {\n        System.out.println(\"Sold out. I waiting for new cars!\");\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/carClass/Volkswagen.java b/src/carClass/Volkswagen.java
+--- a/src/carClass/Volkswagen.java	(revision 36859d3375f77ef4d3662a38205d6c6fbdfc8603)
++++ b/src/carClass/Volkswagen.java	(date 1686161092944)
+@@ -9,4 +9,6 @@
+         System.out.println("Sold out. I waiting for new cars!");
+     }
+ 
++    public String getCollar() { return collar; }
++
+ }
+Index: src/carClass/Vag.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package carClass;\n\npublic abstract class Vag {\n\n    public String brand;\n    public String model;\n    private int defective;\n\n\n    public void sayIamSold() {\n        System.out.println(\"I am sold!\");\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/carClass/Vag.java b/src/carClass/Vag.java
+--- a/src/carClass/Vag.java	(revision 36859d3375f77ef4d3662a38205d6c6fbdfc8603)
++++ b/src/carClass/Vag.java	(date 1686161092948)
+@@ -10,4 +10,6 @@
+     public void sayIamSold() {
+         System.out.println("I am sold!");
+     }
++
++
+ }
+\ No newline at end of file
